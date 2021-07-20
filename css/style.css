@@ -1,0 +1,83 @@
+/* Roboto Poppins Inter Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Poppins&family=Roboto:wght@500&display=swap");
+/* Utilities Or Common Style */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span {
+  font-family: "Poppins", sans-serif;
+  color: #1f1f1f;
+  font-weight: 700;
+}
+p,
+.btn-cust {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+}
+.btn-cust{
+  color: #fff;
+  font-weight: 500;
+}
+.radius{
+  border-radius: 1rem;
+}
+.section-title{
+  color: #1F1F1F;
+  font-size: 36px;
+}
+/* Menu Area Start */
+.brand-logo {
+  font-family: "Roboto", sans-serif;
+  font-size: 35px;
+}
+/* Menu Area End */
+/* Banner Area Start */
+.banner-area {
+  margin-top: 8rem;
+}
+.bg-banner {
+  background-color: #feeae9;
+}
+.carousel-title {
+  font-size: 56px;
+}
+.price {
+  font-size: 41px;
+  font-weight: 500;
+  color: #ff136f;
+}
+.b-b{
+  background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+}
+.b-img{
+  width: 402px;
+  height: 278px;
+}
+.img-fit{
+  object-fit: contain;
+}
+/* Banner Area End */
+/* categories Area Start */
+.categori-title{
+  font-size: 36px;
+}
+.cat-img{
+  width: 100px;
+  height: 100px;
+}
+.cat-img img{
+  object-fit: contain;
+}
+.cat-bg-1{
+  background: linear-gradient(152.07deg, #FF9C35 1.47%, #FFD019 97.17%);
+}
+.cat-bg-2{
+  background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+}
+.cat-bg-3{
+  background: linear-gradient(170.41deg, #4289FF -10.89%, #3F07F8 92.77%);
+}
+/* categories Area End */
