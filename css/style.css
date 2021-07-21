@@ -12,21 +12,73 @@ span {
   color: #1f1f1f;
   font-weight: 700;
 }
+p {
+  color: #4e4e4e;
+}
 p,
 .btn-cust {
   font-family: "Inter", sans-serif;
   font-size: 16px;
 }
-.btn-cust{
-  color: #fff;
+.btn-cust {
+  color: #ffffff;
   font-weight: 500;
+  border: 1px solid transparent;
+  transition: 0.5s;
 }
-.radius{
+.btn-hover:hover {
+  background: linear-gradient(152.21deg, #ff9c35 5.44%, #ffd019 74.76%);
+  color: #ff136f;
+}
+.card-btn-hover:hover {
+  border-color: #000000;
+  background-color: #ffffff;
+  color: #000000;
+}
+input,
+.btn-cust:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+/* input:focus{
+  border-color: #ff136f;
+} */
+a {
+  text-decoration: none;
+}
+.radius {
   border-radius: 1rem;
 }
-.section-title{
-  color: #1F1F1F;
+.section-title {
+  color: #1f1f1f;
   font-size: 36px;
+  font-weight: 600;
+}
+.bg-banner,
+.f-bg {
+  background-color: #feeae9;
+}
+.card-price {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  color: #000000;
+}
+.card-b {
+  background-color: #000000;
+}
+.s-a {
+  font-size: 20px;
+  font-weight: 500;
+  color: #ff9d00;
+}
+.s-a:hover {
+  color: #ff9d00;
+}
+.card-title-d {
+  font-size: 24px;
+  color: #1f1f1f;
+  font-weight: 600;
 }
 /* Menu Area Start */
 .brand-logo {
@@ -38,9 +90,6 @@ p,
 .banner-area {
   margin-top: 8rem;
 }
-.bg-banner {
-  background-color: #feeae9;
-}
 .carousel-title {
   font-size: 56px;
 }
@@ -49,35 +98,52 @@ p,
   font-weight: 500;
   color: #ff136f;
 }
-.b-b{
-  background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+.b-b {
+  background: linear-gradient(180deg, #ff589b -0.01%, #ff136f 99.99%);
 }
-.b-img{
+.b-img {
   width: 402px;
   height: 278px;
 }
-.img-fit{
+.img-fit {
   object-fit: contain;
 }
 /* Banner Area End */
 /* categories Area Start */
-.categori-title{
+.categori-title {
   font-size: 36px;
 }
-.cat-img{
+.cat-img {
   width: 100px;
   height: 100px;
 }
-.cat-img img{
+.cat-img img {
   object-fit: contain;
 }
-.cat-bg-1{
-  background: linear-gradient(152.07deg, #FF9C35 1.47%, #FFD019 97.17%);
+.cat-bg-1 {
+  background: linear-gradient(152.07deg, #ff9c35 1.47%, #ffd019 97.17%);
 }
-.cat-bg-2{
-  background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+.cat-bg-2 {
+  background: linear-gradient(180deg, #ff589b -0.01%, #ff136f 99.99%);
 }
-.cat-bg-3{
-  background: linear-gradient(170.41deg, #4289FF -10.89%, #3F07F8 92.77%);
+.cat-bg-3 {
+  background: linear-gradient(170.41deg, #4289ff -10.89%, #3f07f8 92.77%);
 }
 /* categories Area End */
+/* Shoes Or Backpack Area Start */
+.shoes,
+.backpack {
+  background-color: #f4f4f4;
+}
+/* Shoes Or Backpack Area End */
+/* Footer Area Start */
+.subscribe-content > .section-title {
+  font-size: 30px;
+}
+.subscribe-content > p {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #707070;
+}
+/* Footer Area End */
