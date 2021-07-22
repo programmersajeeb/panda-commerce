@@ -147,3 +147,13 @@ a {
   color: #707070;
 }
 /* Footer Area End */
+/* Media Queary Start */
+@media only screen and (max-width: 576px) {
+  .hed {
+    font-size: 1.3rem;
+  }
+  .pra {
+    font-size: 14px;
+  }
+}
+/* Media Queary End */
