@@ -40,7 +40,7 @@ input,
   outline: none !important;
   box-shadow: none !important;
 }
-input[type="email"]:focus{
+input[type="email"]:focus {
   border-color: #ff136f;
 }
 a {
@@ -81,9 +81,22 @@ a {
   font-weight: 600;
 }
 /* Menu Area Start */
+nav{
+  background: #feeae9fa;
+}
 .brand-logo {
   font-family: "Roboto", sans-serif;
   font-size: 35px;
+}
+.navbar-nav .nav-item .nav-link{
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #707070;
+  transition: 0.5s;
+}
+.navbar-nav .nav-item .nav-link:hover{
+  color: #ff136f;
 }
 /* Menu Area End */
 /* Banner Area Start */
@@ -137,7 +150,7 @@ a {
 }
 /* Shoes Or Backpack Area End */
 /* Footer Area Start */
-.content{
+.content {
   max-width: 650px;
 }
 .content > .section-title {
@@ -149,8 +162,8 @@ a {
   font-weight: 500;
   color: #707070;
 }
-.f-btn-b-r{
-  border-radius: 0 .25rem .25rem 0;
+.f-btn-b-r {
+  border-radius: 0 0.25rem 0.25rem 0;
 }
 /* Footer Area End */
 /* Media Queary Start */
